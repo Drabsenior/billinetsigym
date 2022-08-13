@@ -1,0 +1,48 @@
+.landingpagercontainer {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+      to bottom,
+      rgba(57, 115, 177, 0.473) 16%,
+      rgba(255, 255, 255, 0.466) 95%
+    ),
+    url(../../assets/images/landingbackgroundreal.png);
+  background-size: cover;
+}
+.landingflexwrap {
+  width: 79%;
+}
+.landingheadertitle {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10%;
+}
+.landingbuttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10%;
+}
+.landingheadertitle h1 {
+  font-family: "Dangrek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  width: 50%;
+  line-height: 118px;
+  text-align: right;
+  letter-spacing: 0.035em;
+  color: white;
+}
+.landingbuttons button {
+  font-family: carme;
+  font-weight: 300;
+  font-size: 16px;
+  padding: 8px 25px;
+  text-align: center;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background: #2d807f;
+  margin-left: 40px;
+  letter-spacing: 1.1px;
+}

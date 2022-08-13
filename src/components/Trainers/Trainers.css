@@ -1,0 +1,33 @@
+.trainerscomponentcontainer {
+  width: 250px;
+  background: #ffffff;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.25);
+  margin: 40px;
+}
+.trainerimagecontainer img {
+  width: 250px;
+  object-fit: cover;
+}
+.trainerdesc h2 {
+  font-family: "OdorMeanChey";
+  font-weight: normal;
+  font-size: 20px;
+}
+.trainerdesc h1 {
+  font-family: "Plus Jakarta Sans";
+  font-weight: normal;
+  font-size: 26px;
+}
+.trainerssocial {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.trainerssocial img {
+  width: 30px;
+  margin-right: 10px;
+  object-fit: contain;
+}

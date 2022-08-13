@@ -1,0 +1,65 @@
+.pricingcomponent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 280px;
+  margin-top: 40px;
+  margin-left: 40px;
+  padding: 15px;
+  border: 1px solid gray;
+  position: relative;
+  height: 340px;
+
+  box-shadow: 10px 40px 22px rgba(0, 0, 0, 0.15);
+}
+.pricingimage1 {
+  width: 50px;
+  margin-bottom: 10px;
+}
+.abouttitle {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-family: "Carme";
+}
+.pricedescription {
+  width: 240px;
+  font-size: 13px;
+  text-align: center;
+  font-family: "Castoro";
+}
+.priceabout {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 19px;
+  font-style: normal;
+  font-family: "Cormorant Infant";
+}
+.pricingimage2 {
+  width: 30px;
+}
+.topbarprice {
+  height: 10px;
+  position: absolute;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  top: 0;
+}
+.aboutbutton {
+  background-color: #2d807f;
+  border: none;
+  cursor: pointer;
+  margin-left: 3%;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+  font-size: 22px;
+  padding: 0px 75px;
+  font-family: "Gaegu";
+}
+.loweraboutdesc {
+  font-size: 10px;
+  font-family: "Poppins";
+  font-weight: bold;
+}
