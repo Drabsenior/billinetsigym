@@ -1,8 +1,15 @@
 .featurescontainer {
   display: flex;
+  margin-top: 45px;
+}
+.gymfeaturesflexwrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .gymfeatureimage img {
-  width: 447px;
+  width: 449px;
   height: 320px;
   margin-bottom: 0px;
   margin-top: -4px;
@@ -14,13 +21,14 @@
   align-items: center;
   background-color: #3973b1;
   flex-direction: column;
-  width: 447px;
+  width: 449px;
   height: 320px;
   margin-bottom: 0px;
-  margin-top: -4px;
+  margin-top: -8px;
 }
 .gymfeatuersdetail h2 {
   margin-bottom: 10px;
+  font-weight: normal;
   color: white;
   font-family: "Nova Slim";
 }
@@ -42,4 +50,15 @@
   color: white;
   background-color: #3973b1;
   font-family: "Laila";
+  cursor: pointer;
+}
+@media screen and (max-width: 450px) {
+  .gymfeatuersdetail p {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: white;
+    font-family: "Kdam Thmor";
+  }
 }

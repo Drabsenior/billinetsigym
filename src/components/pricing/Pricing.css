@@ -4,13 +4,10 @@
   align-items: center;
   flex-direction: column;
   width: 280px;
-  margin-top: 40px;
-  margin-left: 40px;
+  margin-right: 70px;
   padding: 15px;
-  border: 1px solid gray;
   position: relative;
   height: 340px;
-
   box-shadow: 10px 40px 22px rgba(0, 0, 0, 0.15);
 }
 .pricingimage1 {
@@ -40,7 +37,7 @@
   width: 30px;
 }
 .topbarprice {
-  height: 10px;
+  height: 7px;
   position: absolute;
   width: 100%;
   border-radius: 10px 10px 0px 0px;
@@ -51,6 +48,7 @@
   border: none;
   cursor: pointer;
   margin-left: 3%;
+  margin-top: 4%;
   text-align: center;
   color: white;
   margin-bottom: 10px;

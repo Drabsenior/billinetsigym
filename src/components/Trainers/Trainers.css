@@ -5,18 +5,20 @@
   margin: 40px;
 }
 .trainerimagecontainer img {
-  width: 250px;
+  width: 251px;
   object-fit: cover;
 }
 .trainerdesc h2 {
   font-family: "OdorMeanChey";
   font-weight: normal;
   font-size: 20px;
+  margin-left: 5px;
 }
 .trainerdesc h1 {
   font-family: "Plus Jakarta Sans";
   font-weight: normal;
   font-size: 26px;
+  margin-left: 5px;
 }
 .trainerssocial {
   display: flex;

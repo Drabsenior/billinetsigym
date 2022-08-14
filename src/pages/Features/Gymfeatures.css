@@ -1,0 +1,11 @@
+.gymfeaturespagecontainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 85px;
+}
+.featurestitle {
+  color: #2d807f;
+  font-family: "Poppins";
+}

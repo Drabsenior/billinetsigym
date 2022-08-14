@@ -24,7 +24,7 @@ const Features = () => {
         </div>
         <div className="gymfeatuersdetail">
           <img src={gymfeaturesicon2} alt="" />
-          <h2>Gym for men</h2>
+          <h2>Yoga fitness</h2>
           <p>Contrary to popular in a piece of classical Latin literature.</p>
           <button>Read More</button>
         </div>
@@ -33,7 +33,7 @@ const Features = () => {
         </div>
         <div className="gymfeatuersdetail">
           <img src={gymfeaturesicon3} alt="" />
-          <h2>Gym for men</h2>
+          <h2>Gym for women</h2>
           <p>Contrary to popular in a piece of classical Latin literature.</p>
           <button>Read More</button>
         </div>

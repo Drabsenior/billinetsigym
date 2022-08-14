@@ -1,0 +1,16 @@
+.experttrainerscontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.experttrainerstitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-family: Poppins;
+  color: #2d807f;
+}
