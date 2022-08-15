@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import "./Navbar.css";
 import { HiMenu } from "react-icons/hi";
 import { VscChromeClose } from "react-icons/vsc";
@@ -13,7 +13,10 @@ const Navbar = () => {
   return (
     <div className="navbarwrapper">
       <div className="navlogo">
-        <img src={billinestigym} alt="" />
+        <Link to="home" smooth={true} duration={1000} offset={-80}>
+          {" "}
+          <img src={billinestigym} alt="" />
+        </Link>
       </div>
       <div className="Mobilescreen">
         <div className="MenuIcon" onClick={handleOpen}>
@@ -28,35 +31,40 @@ const Navbar = () => {
             <VscChromeClose color="black" size={18} />
           </div>
           <ul>
-            {/* <Link to="/"> */} <li onClick={handleOpen}> HOME </li>
-            {/* </Link>{" "}
-            <Link to="/about"> */}{" "}
-            <li onClick={handleOpen}>ABOUTUS</li>
-            {/* </Link> */}
-            {/* <Link to="/rooms"> */} <li onClick={handleOpen}> SERVICES</li>
-            {/* </Link> */}
-            {/* <Link to="/rooms"> */} <li onClick={handleOpen}> TRAINERS</li>
-            {/* </Link> */}
+            <Link to="home" smooth={true} duration={1000} offset={-80}>
+              {" "}
+              <li onClick={handleOpen}> HOME </li>
+            </Link>{" "}
+            <Link to="aboutus" smooth={true} duration={1000} offset={-50}>
+              <li onClick={handleOpen}>ABOUTUS</li>
+            </Link>
+            <Link to="services" smooth={true} duration={1000} offset={-50}>
+              <li onClick={handleOpen}> SERVICES</li>
+            </Link>
+            <Link to="trainers" smooth={true} duration={1000} offset={-190}>
+              {" "}
+              <li onClick={handleOpen}> TRAINERS</li>
+            </Link>
           </ul>
         </div>
       </div>
       <div className="navlinks">
         <ul>
-          {/* <Link to="/"> */}
-          <li>HOME</li>
-          {/* </Link> */}
-          {/* 
-          <Link to="/about"> */}
-          <li>ABOUT</li>
-          {/* </Link> */}
-          {/* 
-          <Link to="/rooms"> */}
-          <li>SERVICES </li>
-          {/* </Link> */}
-          {/* 
-          <Link to="/rooms"> */}
-          <li>TRAINERS </li>
-          {/* </Link> */}
+          <Link to="home" smooth={true} duration={1000} offset={-80}>
+            <li>HOME</li>
+          </Link>
+
+          <Link to="aboutus" smooth={true} duration={1000} offset={-50}>
+            <li>ABOUT</li>
+          </Link>
+
+          <Link to="services" smooth={true} duration={1000} offset={-50}>
+            <li>SERVICES </li>
+          </Link>
+
+          <Link to="trainers" smooth={true} duration={1000} offset={-190}>
+            <li>TRAINERS </li>
+          </Link>
         </ul>
       </div>
     </div>

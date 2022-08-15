@@ -4,7 +4,7 @@ import weight1 from "../../assets/icons/weight1.png";
 import weight2 from "../../assets/icons/weight2.png";
 const Pricing = ({ color, image1, title, desc, price }) => {
   return (
-    <div className="pricingcomponent">
+    <div className="pricingcomponent" id="pricing">
       <div className="topbarprice" style={{ backgroundColor: color }}></div>
       <img className="pricingimage1" src={image1} alt="" />
       <span className="abouttitle">{title}</span>

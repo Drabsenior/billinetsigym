@@ -8,7 +8,7 @@ import messageicon from "../../assets/images/Message.png";
 import "./Footer.css";
 const Footer = () => {
   return (
-    <div className="footercontainer">
+    <div className="footercontainer" id="fotter">
       <div className="footerflex">
         <h2>Billi Nesit</h2>
         <span>FITTNESS CENTER</span>

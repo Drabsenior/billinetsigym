@@ -2,9 +2,10 @@ import React from "react";
 import "./About.css";
 import image1 from "../../assets/images/image1.png";
 import image2 from "../../assets/images/image2.png";
+import { Link } from "react-scroll";
 const About = () => {
   return (
-    <div className="aboutpagecontainer">
+    <div className="aboutpagecontainer" id="aboutus">
       <div className="aboutflexwrap">
         <div className="leftsideaboutimagecontainer">
           <img className="image1contain" src={image1} alt="" />
@@ -20,7 +21,10 @@ const About = () => {
             believable.
           </p>
           <div className="aboutbutton1">
-            <button>READ MORE</button>
+            <Link to="features" smooth={true} duration={1000} offset={-180}>
+              {" "}
+              <button>READ MORE</button>
+            </Link>
           </div>
         </div>
       </div>
