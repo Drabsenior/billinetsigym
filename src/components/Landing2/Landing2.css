@@ -1,0 +1,45 @@
+.landing2conatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.leftlanding2 {
+  margin-left: 12%;
+}
+.leftlanding2 h1 {
+  font-size: 90px;
+  font-family: "Fredoka";
+  font-weight: 600;
+  color: #2d807f;
+}
+.leftlanding2 h2 {
+  font-size: 60px;
+  font-family: "Fredoka";
+  width: 80%;
+  font-weight: 500;
+  color: #2d807f;
+  margin-bottom: 20px;
+}
+.leftlanding2 p {
+  font-size: 14px;
+  width: 75%;
+  font-family: "Fresca";
+  color: #3973b1;
+  margin-bottom: 20px;
+}
+.leftlanding2 button {
+  margin-top: 4%;
+  padding: 8px 25px;
+  border: none;
+  background-color: #2d807f;
+  color: white;
+  font-size: 17px;
+  font-family: "Carme";
+}
+.rightlanding2 {
+  width: 73%;
+}
+.rightlanding2 img {
+  width: 500px;
+}

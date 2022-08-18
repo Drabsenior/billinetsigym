@@ -1,0 +1,30 @@
+.aboutus2container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftcontainerabout2 img {
+  width: 500px;
+  margin-left: 85px;
+  margin-top: 45px;
+}
+.rightcontinerabout2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10%;
+  color: #2d807f;
+}
+.rightcontinerabout2 h1 {
+  font-size: 80px;
+  font-family: "Overlock SC";
+}
+.rightcontinerabout2 span {
+  font-size: 40px;
+  font-family: "Proza Libre";
+}
+.rightcontinerabout2 p {
+  font-size: 24px;
+  width: 80%;
+  font-family: "Saira";
+}

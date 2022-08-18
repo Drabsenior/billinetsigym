@@ -8,17 +8,27 @@ import Navbar from "./components/Navbar/Navbar";
 import Price from "./pages/Price/Price";
 import Gymfeatures from "./pages/Features/Gymfeatures";
 import Experttrainers from "./pages/Expert/Experttrainers";
+import Landing2 from "./components/Landing2/Landing2";
+import Status from "./components/Status/Status";
+import Aboutus from "./components/Aboutus/Aboutus";
+import Weightlossing from "./components/weightlossing/Weightlossing";
+import Challenges from "./components/Challenges/Challenges";
 
 function App() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar />
       <Landing />
-      <About />
       <Price />
       <Gymfeatures />
       <Experttrainers />
-      <Footer />
+      <Footer /> */}
+      {/* <Landing2 /> */}
+      {/* <Status /> */}
+      {/* <About /> */}
+      {/* <Aboutus /> */}
+      {/* <Weightlossing /> */}
+      <Challenges />
     </div>
   );
 }

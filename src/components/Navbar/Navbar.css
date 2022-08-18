@@ -25,11 +25,27 @@
   background-color: white;
 }
 .navlinks {
-  margin-right: 17%;
+  margin-right: 6%;
+  display: flex;
 }
 .navlinks ul {
   display: flex;
   align-items: center;
+}
+.contactnavbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 110px;
+  border: 2.5px solid #2d807f;
+  padding: 7px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.contactnavbtn span {
+  font-size: 20px;
+  color: #2d807f;
+  margin-left: 10px;
 }
 .navlinks li {
   list-style: none !important;

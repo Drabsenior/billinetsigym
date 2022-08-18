@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import "./Navbar.css";
 import { HiMenu } from "react-icons/hi";
 import { VscChromeClose } from "react-icons/vsc";
+import { BsFillTelephoneFill } from "react-icons/bs";
 import billinestigym from "../../assets/icons/billinetsigymlogo.png";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -66,6 +67,10 @@ const Navbar = () => {
             <li>TRAINERS </li>
           </Link>
         </ul>
+        <div className="contactnavbtn">
+          <BsFillTelephoneFill color="2D807F" />
+          <span>Contact us</span>
+        </div>
       </div>
     </div>
   );

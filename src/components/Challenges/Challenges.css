@@ -1,0 +1,62 @@
+.challengescontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftchallengecontainer {
+}
+.leftchallengecontainer img {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+  margin-top: 4px;
+}
+.rightchallengecontainer {
+  background-color: #3973b1;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  flex-direction: column;
+  color: white;
+}
+.flexchallengecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flexchallengecontainer h2 {
+  font-family: "Nova Round";
+  font-size: 39px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  color: #3973b1;
+}
+.rightchallengecontainer img {
+  width: 75px;
+}
+.rightchallengecontainer h2 {
+  font-family: "Nova Slim";
+  margin-top: 15px;
+  font-size: 28px;
+  color: white;
+}
+.rightchallengecontainer p {
+  width: 70%;
+  font-family: "Nova Slim";
+  font-size: 14px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.rightchallengecontainer button {
+  border: 1px solid white;
+  background-color: #3973b1;
+  padding: 4px 28px;
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+  font-family: "Laila";
+}

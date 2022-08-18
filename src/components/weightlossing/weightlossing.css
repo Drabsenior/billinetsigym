@@ -1,0 +1,19 @@
+.weightlossingcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5f8ec0;
+  color: white;
+  flex-direction: column;
+  height: 180px;
+}
+.weightlossingcontainer h2 {
+  font-family: "Saira";
+  font-size: 32px;
+}
+.weightlossingcontainer p {
+  text-align: center;
+  font-family: "Saira";
+  font-size: 20px;
+  width: 40%;
+}
