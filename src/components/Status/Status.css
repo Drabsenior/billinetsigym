@@ -28,3 +28,21 @@
   font-family: "carme";
   font-size: 12px;
 }
+@media screen and (max-width: 730px) {
+  .flexstatus {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .statuscontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .flexstatus {
+    width: 100%;
+    flex-direction: column;
+    height: 300px;
+  }
+}

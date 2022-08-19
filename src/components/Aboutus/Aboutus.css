@@ -29,3 +29,39 @@
   width: 80%;
   font-family: "Saira";
 }
+@media screen and (max-width: 1134px) {
+  .leftcontainerabout2 img {
+    width: 450px;
+    margin-left: 0px;
+    margin-top: 45px;
+    margin-bottom: 50px;
+  }
+  .aboutus2container {
+    flex-direction: column-reverse;
+    overflow: hidden !important;
+    width: 100vw;
+    margin: 0px;
+  }
+  .rightcontinerabout2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 0%;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 420px) {
+  .rightcontinerabout2 h1 {
+    font-size: 60px;
+    font-family: "Overlock SC";
+  }
+  .rightcontinerabout2 span {
+    font-size: 35px;
+    font-family: "Proza Libre";
+  }
+  .rightcontinerabout2 p {
+    font-size: 22px;
+    width: 80%;
+    font-family: "Saira";
+  }
+}

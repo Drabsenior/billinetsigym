@@ -43,3 +43,35 @@
 .rightlanding2 img {
   width: 500px;
 }
+@media screen and (max-width: 850px) {
+  .landing2conatiner {
+    flex-wrap: wrap;
+    margin-top: 90px;
+    overflow: hidden;
+  }
+  .leftlanding2 {
+    margin-left: 18%;
+    width: 100%;
+  }
+  .rightlanding2 img {
+    width: 500px;
+    overflow: hidden;
+    object-fit: contain;
+  }
+  .rightlanding2 {
+    width: 93%;
+  }
+}
+@media screen and (max-width: 582px) {
+  .leftlanding2 {
+    width: 100vw;
+    margin-left: 8%;
+  }
+  .rightlanding2 {
+    width: 100vw;
+  }
+  .rightlanding2 img {
+    width: 400px;
+    object-fit: contain;
+  }
+}

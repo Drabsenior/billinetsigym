@@ -19,3 +19,20 @@
   font-size: 20px;
   width: 40%;
 }
+@media screen and (max-width: 596px) {
+  .weightlossingcontainer {
+    height: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .weightlossingcontainer h2 {
+    font-family: "Saira";
+    font-size: 28px;
+  }
+  .weightlossingcontainer p {
+    text-align: center;
+    font-family: "Saira";
+    font-size: 18px;
+    width: 60%;
+  }
+}
