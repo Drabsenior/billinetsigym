@@ -2,8 +2,7 @@ import React from "react";
 import "./Price.css";
 import Pricing from "../../components/pricing/Pricing";
 import weight1 from "../../assets/icons/weight1.png";
-import weight2 from "../../assets/icons/weight2.png";
-import weight3 from "../../assets/icons/weight3.png";
+
 const Price = () => {
   return (
     <div className="flexpricingwrap">
