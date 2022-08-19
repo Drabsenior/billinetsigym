@@ -5,7 +5,7 @@ import image2 from "../../assets/images/image2.png";
 import { Link } from "react-scroll";
 const About = () => {
   return (
-    <div className="aboutpagecontainer" id="aboutus">
+    <div className="aboutpagecontainer">
       <div className="aboutflexwrap">
         <div className="leftsideaboutimagecontainer">
           <img className="image1contain" src={image1} alt="" />

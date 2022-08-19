@@ -1,0 +1,52 @@
+.pricedetailcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.leftpricedetailcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+.rightpricedetailcontainer {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -3px 1px 17px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -3px 1px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px 1px 17px 0px rgba(0, 0, 0, 0.75);
+}
+.leftpricedetailcontainer h2 {
+  font-family: "Carme";
+  margin-top: 15px;
+}
+.leftpricedetailcontainer img {
+  width: 80px;
+}
+.leftpricedetailcontainer p {
+  width: 80%;
+  font-family: "Castoro";
+  padding: 10px 3px;
+}
+.leftpricedetailcontainer span {
+  font-family: "Cormorant Infant";
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 15px 5px;
+}
+.leftpricedetailcontainer button {
+  width: 200px;
+  padding: 5px 10px;
+  font-family: "Gaegu";
+  font-size: 22px;
+  font-weight: 400;
+  border: none;
+  background-color: #2d807f;
+  cursor: pointer;
+  color: white;
+}

@@ -1,0 +1,19 @@
+.sliderimagecontainer {
+  width: 98%;
+  overflow: hidden !important;
+}
+.slideimages img {
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+  overflow: hidden !important;
+}
+.slick-track {
+  overflow: hidden !important;
+}
+.slick-arrow {
+  display: none;
+}
+.slick-slide .slick-cloned {
+  overflow: hidden !important;
+}

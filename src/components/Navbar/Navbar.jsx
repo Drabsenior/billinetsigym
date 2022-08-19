@@ -5,6 +5,7 @@ import { HiMenu } from "react-icons/hi";
 import { VscChromeClose } from "react-icons/vsc";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import billinestigym from "../../assets/icons/billinetsigymlogo.png";
+import { Link as LinkNav } from "react-router-dom";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -14,10 +15,10 @@ const Navbar = () => {
   return (
     <div className="navbarwrapper">
       <div className="navlogo">
-        <Link to="home" smooth={true} duration={1000} offset={-80}>
+        <LinkNav to="/">
           {" "}
           <img src={billinestigym} alt="" />
-        </Link>
+        </LinkNav>
       </div>
       <div className="Mobilescreen">
         <div className="MenuIcon" onClick={handleOpen}>
@@ -51,9 +52,9 @@ const Navbar = () => {
       </div>
       <div className="navlinks">
         <ul>
-          <Link to="home" smooth={true} duration={1000} offset={-80}>
+          <LinkNav to="/">
             <li>HOME</li>
-          </Link>
+          </LinkNav>
 
           <Link to="aboutus" smooth={true} duration={1000} offset={-50}>
             <li>ABOUT</li>

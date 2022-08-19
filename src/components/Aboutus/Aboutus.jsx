@@ -3,7 +3,7 @@ import "./Aboutus.css";
 import billipic from "../../assets/images/billipic.png";
 const Aboutus = () => {
   return (
-    <div className="aboutus2container">
+    <div className="aboutus2container" id="aboutus">
       <div className="leftcontainerabout2">
         <img src={billipic} alt="" />
       </div>

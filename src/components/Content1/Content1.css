@@ -1,0 +1,20 @@
+.contnet1container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2d807f;
+  flex-direction: column;
+  margin-bottom: 40px;
+  overflow: hidden !important;
+  width: 100vw !important;
+}
+.contnet1container h2 {
+  font-family: "Sahitya";
+}
+.contnet1container p {
+  font-family: "Saira";
+  text-align: center;
+  margin-top: 5px;
+  font-size: 17px;
+  width: 65%;
+}

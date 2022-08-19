@@ -2,6 +2,7 @@ import React from "react";
 import "./Pricing.css";
 import weight1 from "../../assets/icons/weight1.png";
 import weight2 from "../../assets/icons/weight2.png";
+import { Link } from "react-router-dom";
 const Pricing = ({ color, image1, title, desc, price }) => {
   return (
     <div className="pricingcomponent" id="pricing">
@@ -10,7 +11,9 @@ const Pricing = ({ color, image1, title, desc, price }) => {
       <span className="abouttitle">{title}</span>
       <p className="pricedescription">{desc}</p>
       <span className="priceabout">{price}</span>
-      <button className="aboutbutton">Buy Now</button>
+      <Link to="/pricedetail">
+        <button className="aboutbutton">Buy Now</button>
+      </Link>
       <img className="pricingimage2" src={weight2} alt="" />
       <p className="loweraboutdesc">5 YEARS OR MORE</p>
       <p className="loweraboutdesc">Request a personal trainer</p>
