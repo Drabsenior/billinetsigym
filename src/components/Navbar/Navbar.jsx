@@ -43,17 +43,28 @@ const Navbar = () => {
           <ul>
             <Link to="home" smooth={true} duration={1000} offset={-80}>
               {" "}
-              <li onClick={handleOpen}> HOME </li>
+              <li onClick={handleOpen}>
+                {" "}
+                {`${language === "english" ? "HOME" : "አቤት"}`}{" "}
+              </li>
             </Link>{" "}
             <Link to="aboutus" smooth={true} duration={1000} offset={-50}>
-              <li onClick={handleOpen}>ABOUTUS</li>
+              <li onClick={handleOpen}>{`${
+                language === "english" ? "ABOUT" : "ስለኛ"
+              }`}</li>
             </Link>
             <Link to="services" smooth={true} duration={1000} offset={-50}>
-              <li onClick={handleOpen}> SERVICES</li>
+              <li onClick={handleOpen}>
+                {" "}
+                {`${language === "english" ? "SERVICES" : "አገልግሎት"}`}{" "}
+              </li>
             </Link>
             <Link to="trainers" smooth={true} duration={1000} offset={-190}>
               {" "}
-              <li onClick={handleOpen}> TRAINERS</li>
+              <li onClick={handleOpen}>
+                {" "}
+                {`${language === "english" ? "TRAINERS" : "አሰልጣኝ"}`}
+              </li>
             </Link>
           </ul>
         </div>
@@ -83,8 +94,18 @@ const Navbar = () => {
         <div className="languagecontain">
           <label htmlFor="lan">Lan: </label>{" "}
           <select onChange={handleLanguage} id="lan">
-            <option value="english">English</option>
-            <option value="amharic">Amharic</option>
+            <option
+              selected={language === "english" ? true : false}
+              value="english"
+            >
+              Eng
+            </option>
+            <option
+              selected={language === "amharic" ? true : false}
+              value="amharic"
+            >
+              Amh
+            </option>
           </select>
         </div>
       </div>
