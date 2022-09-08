@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Coming_soon.css";
+import { Languagecontext } from "../../Contexts/Languagecontext";
+
 const Coming_soon = () => {
+  const { language } = useContext(Languagecontext);
   return (
     <div className="comingsoonpagecontainer">
-      <h1>Coming soon !</h1>
+      <h1>{`${language === "english" ? "Coming soon !" : "በቅርቡ እንመጣለን !"}`}</h1>
     </div>
   );
 };

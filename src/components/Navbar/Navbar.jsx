@@ -6,12 +6,20 @@ import { VscChromeClose } from "react-icons/vsc";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import billinestigym from "../../assets/icons/billinetsigymlogo.png";
 import { Link as LinkNav } from "react-router-dom";
+import { useEffect, useContext } from "react";
+import { Languagecontext } from "../../Contexts/Languagecontext";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
+  const { setLanguage } = useContext(Languagecontext);
+  const { language } = useContext(Languagecontext);
+  console.log(language);
   const handleOpen = () => {
     setIsOpen(!isOpen);
   };
+  const handleLanguage = (event) => {
+    setLanguage(event.target.value);
+  };
+  useEffect(() => {}, [language]);
   return (
     <div className="navbarwrapper">
       <div className="navlogo">
@@ -53,24 +61,31 @@ const Navbar = () => {
       <div className="navlinks">
         <ul>
           <LinkNav to="/">
-            <li>HOME</li>
+            <li>{`${language === "english" ? "HOME" : "አቤት"}`}</li>
           </LinkNav>
 
           <Link to="aboutus" smooth={true} duration={1000} offset={-50}>
-            <li>ABOUT</li>
+            <li>{`${language === "english" ? "ABOUT" : "ስለኛ"}`}</li>
           </Link>
 
           <Link to="services" smooth={true} duration={1000} offset={-50}>
-            <li>SERVICES </li>
+            <li>{`${language === "english" ? "SERVICES" : "አገልግሎት"}`} </li>
           </Link>
 
           <Link to="trainers" smooth={true} duration={1000} offset={-190}>
-            <li>TRAINERS </li>
+            <li>{`${language === "english" ? "TRAINERS" : "አሰልጣኝ"}`} </li>
           </Link>
         </ul>
         <div className="contactnavbtn">
           <BsFillTelephoneFill color="2D807F" />
-          <span>Contact us</span>
+          <span>{`${language === "english" ? "Contact us" : "ያግኙን"}`}</span>
+        </div>
+        <div className="languagecontain">
+          <label htmlFor="lan">Lan: </label>{" "}
+          <select onChange={handleLanguage} id="lan">
+            <option value="english">English</option>
+            <option value="amharic">Amharic</option>
+          </select>
         </div>
       </div>
     </div>

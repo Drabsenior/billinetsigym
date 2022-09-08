@@ -9,7 +9,34 @@
   margin-left: 80px;
   cursor: pointer;
 }
-
+.languagecontain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 48px;
+  outline-width: none;
+}
+.languagecontain label {
+  transition: all 250ms ease-in-out;
+  font-size: 20px;
+  font-family: "Gafata";
+  color: #2d807f;
+  margin-right: 5px;
+}
+.languagecontain select {
+  outline: none;
+  transition: all 250ms ease-in-out;
+  font-size: 17px;
+  font-family: "Gafata";
+  color: #2d807f;
+}
+.languagecontain option {
+  outline-width: none;
+  transition: all 250ms ease-in-out;
+  font-size: 17px;
+  font-family: "Gafata";
+  color: #2d807f;
+}
 .navbarwrapper {
   display: flex;
   justify-content: space-between;
@@ -25,7 +52,7 @@
   background-color: white;
 }
 .navlinks {
-  margin-right: 6%;
+  margin-right: 3%;
   display: flex;
 }
 .navlinks ul {

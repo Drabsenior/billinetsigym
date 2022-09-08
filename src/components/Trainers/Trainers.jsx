@@ -6,6 +6,7 @@ import twitter from "../../assets/icons/twittergym.png";
 import trainer1 from "../../assets/images/trainer1.png";
 import trainer2 from "../../assets/images/trainer2.png";
 import trainer3 from "../../assets/images/trainer3.png";
+
 const Trainers = ({ image, qualify, name }) => {
   return (
     <div className="trainerscomponentcontainer" id="trainers">
